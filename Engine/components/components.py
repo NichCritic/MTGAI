@@ -5,6 +5,9 @@ class Creature(object):
         self.power = power
         self.toughness = toughness
 
+class Artifact(object):
+    def __init__(self, entity_id):
+        self.entity_id = entity_id
 
 class Spell(object):
 
